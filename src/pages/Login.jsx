@@ -5,7 +5,7 @@ export default function Login() {
         <>
             <Header />
             <div>
-                <h1>Welcome</h1>
+                <h1 className="text-3xl font-bold underline">Welcome</h1>
                 <button>Login</button>
             </div>
             
