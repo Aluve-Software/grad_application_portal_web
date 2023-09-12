@@ -1,5 +1,4 @@
 import Logo from "../assets/img/Aluve_SDH.png";
-
 export default function Forgot_Password() {
     return (
         <>
