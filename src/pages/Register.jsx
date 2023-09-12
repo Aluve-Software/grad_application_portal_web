@@ -1,5 +1,4 @@
 import Logo from "../assets/img/Aluve_SDH.png";
-
 export default function Register() {
     return (
         <>
@@ -12,14 +11,14 @@ export default function Register() {
             <div class="p-8 py-12 sm:p-16">
               <h2 class="mb-8 text-2xl text-center font-bold text-gray-800 dark:text-white">Sign Up for an account</h2>
               <form action="" class="space-y-8">
-                                <div class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md" role="alert">
-  <div class="flex">
-    <div>
-      <p class="font-bold">Our privacy policy has changed</p>
-      <p class="text-sm">Password must be at least 7 characters long.</p>
-    </div>
-  </div>
-</div>
+              <div class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md" role="alert">
+                <div class="flex">
+                <div>
+                  <p class="font-bold">Our privacy policy has changed</p>
+                  <p class="text-sm">Password must be at least 7 characters long.</p>
+                </div>
+              </div>
+        </div>
                 <div class="space-y-2">
                   <label for="email" class="text-gray-600 dark:text-gray-300">Email</label>
                   <input
