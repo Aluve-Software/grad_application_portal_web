@@ -1,12 +1,11 @@
-import './App.css'
-import Login from './pages/Login'
+import React from 'react'
+import { Pages } from './pages'
 
 function App() {
-  
 
   return (
     <>
-      <Login />
+      <Pages.Authentication.Login />
     </>
   )
 }
