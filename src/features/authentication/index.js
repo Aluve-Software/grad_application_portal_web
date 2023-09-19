@@ -1,17 +1,34 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+/**
+ * Current refers to current user
+ */
 const INITIAL_STATE = {
-    current: null
+    currentUser: null
 }
 
 const authenticationSlicer = createSlice({
     name: 'authentication',
     initialState: INITIAL_STATE,
     reducers: {
-        login: (state, action) => {},
-        register: (state, action) => {},
-        forgot_password: (state, action) => {},
-        login: (state, action) => {},
+        onAuthStateChange: (state, action) => {
+
+        },
+        login: (state, action) => {
+
+        },
+        register: (state, action) => {
+
+        },
+        newPassword: (state, action) => {
+
+        },
+        setUser: (state, action) => {
+            state.currentUser = action.payload.currentUser
+        },
+        signOutUser: (state) => {
+            state.currentUser = null
+        }
     }
 })
 

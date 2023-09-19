@@ -1,11 +1,14 @@
-import Login from "./Login";
-import Register from "./Register";
-import Forgot_Password from "./Forgot-Password";
-import New_Password from "./New-Password";
+import { connect } from "react-redux";
+import { AuthMain as Component } from "./AuthMain";
 
-export const Authentication = {
-    Login,
-    Register,
-    Forgot_Password,
-    New_Password
+function mapStateToProps(state, ownProps) {
+    return {}
 }
+
+function mapDispatchToProps(dispatch) {
+    return {
+
+    }
+}
+
+export const Authentication = connect(mapStateToProps, mapDispatchToProps)(Component)
