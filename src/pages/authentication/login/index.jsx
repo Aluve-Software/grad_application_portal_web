@@ -4,6 +4,7 @@ import axios from "axios";
 import Header from "../components/header";
 import Message from "../components/message";
 import AltAuth  from "../components/alt-auth";
+import Button from "../components/button";
 
 export default function Login() {
   const [isLoading, setIsLoading] = React.useState(false)
@@ -63,9 +64,7 @@ export default function Login() {
         </div>
 
         {/* Submit Button */}
-        <button type="submit" className="w-full h-10 absolute bottom-0 bg-blue-400 rounded-lg font-bold text-white">
-          Sign in
-        </button>
+        <Button>Sign in</Button>
 
       </form>
 
